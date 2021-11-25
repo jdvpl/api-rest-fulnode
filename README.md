@@ -4,3 +4,4 @@
 
 * npm init
 * name: backend-shopping
+* Instalar express `npm i express`
