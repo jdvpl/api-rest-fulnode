@@ -5,6 +5,12 @@ const cartDS={
     addToCart: (cartItem)=>{
         cart.push(cartItem);
         return uuidv4();
+    },
+    fetchCartItems : ()=>{
+        return cart.map( (c) =>{
+            const carts=Object.assign( {}, c);
+            return carts;
+        })
     }
 }
 
