@@ -182,7 +182,7 @@ const data=[
     }
  ];
 
- const ds={
+ const productDs={
      fetchProducts: ()=>{
         return data.map( (p) =>{
             const product=Object.assign( {}, p);
@@ -193,4 +193,4 @@ const data=[
      fetchProductById: (id)=> data.find( e=> e.id == id)
      
  }
- module.exports=ds;
+ module.exports=productDs;

@@ -6,3 +6,4 @@
 * name: backend-shopping
 * Instalar express `npm i express`
 * Instalar nodemon `npm install --save-dev nodemon`
+* Instalar un id unico `npm i uuid`

@@ -1,6 +1,6 @@
 const express=require('express');
 // importando la data fake
-const ds= require("../datasource/data");
+const ds= require("../datasource/products");
 const routers=express.Router();
 
 routers.get('/',function (req, res) {
