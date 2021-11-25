@@ -8,4 +8,16 @@ routers.get('/',function (req, res) {
     res.status(200).json(products);
 });
 
+// obtener un producto por su id
+routers.get('/:id',function (req, res) {
+    const productid=req.params.id;
+    const product=ds.fetchProductById(productid);
+
+    if(product != undefined){
+        res.status(200).json(product);
+    }else{
+        res.status(200).json(`No se encontro producto con el id ${productid}`)
+    }
+});
+
 module.exports=routers

@@ -189,6 +189,8 @@ const data=[
             delete product.shops; //borrra los vendidos
             return product;
         })
-     }
+     },
+     fetchProductById: (id)=> data.find( e=> e.id == id)
+     
  }
  module.exports=ds;
