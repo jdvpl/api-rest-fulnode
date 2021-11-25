@@ -1,0 +1,11 @@
+{
+  "name": "backend-shopping",
+  "version": "1.0.0",
+  "description": "Backend de la aplicacion movil conectada con mongo y flutter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jdvpl",
+  "license": "ISC"
+}
